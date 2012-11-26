@@ -1,0 +1,37 @@
+{
+  "name": "build-requirejs",
+  "description": "Builds the requirejs's main file.",
+  "version": "0.1.0",
+  "homepage": "https://github.com/tebriel/grunt-build-requirejs",
+  "author": {
+    "name": "Chris Moultrie",
+    "email": "tebriel@gmail.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/tebriel/grunt-build-requirejs.git"
+  },
+  "bugs": {
+    "url": "https://github.com/tebriel/grunt-build-requirejs/issues"
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "https://github.com/tebriel/grunt-build-requirejs/blob/master/LICENSE-MIT"
+    }
+  ],
+  "main": "lib/build-requirejs",
+  "engines": {
+    "node": ">= 0.6.0"
+  },
+  "scripts": {
+    "test": "grunt test"
+  },
+  "devDependencies": {
+    "grunt": "~0.3.17",
+    "grunt-contrib-coffee": "~0.3.2",
+    "grunt-jasmine-node": "0.0.4",
+    "jasmine-node": "~1.0.26"
+  },
+  "keywords": []
+}
