@@ -50,7 +50,7 @@ module.exports = function(grunt) {
   });
 
   // Default task.
-  grunt.registerTask('default', 'coffee lint jasmine_node');
+  grunt.registerTask('default', 'coffee jasmine_node');
   grunt.registerTask('test', 'jasmine_node');
   grunt.loadNpmTasks('grunt-contrib-coffee');
   grunt.loadNpmTasks('grunt-jasmine-node');
